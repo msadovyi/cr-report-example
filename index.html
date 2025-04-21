@@ -176,418 +176,512 @@
 <body>
   <main>
     <h1>Rapport d'analyse automatique du document "data/sample.pdf</h1>
-<hr />
-<h2>⚠️ Informations générales (non localisées)</h2>
-<ul>
-<li><span style="color:red"><strong>5</strong> héritiers détectés</span> <em>contre</em> <span style="color:green"><strong>6</strong> héritiers attendus</span>. <em>Personnes non-detectées dans le document en comparaison avec la base de référence</em> :<ul>
-<li>Madame <strong>Valérie Marie</strong></li>
-</ul>
-</li>
-</ul>
-<hr />
-<h2>📄 Détail des éléments non conformes</h2>
-<h3>📄 Page 1</h3>
-<h4>Défunt (de cujus)</h4>
-<table>
-<thead>
-<tr>
-<th>Donnée vérifiée</th>
-<th>Ce que nous avons trouvé</th>
-<th>Ce qui était attendu</th>
-<th>Statut</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Titre</td>
-<td>Madame</td>
-<td>Madame</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Prénom</td>
-<td>Alice</td>
-<td>Alice</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Nom de naissance</td>
-<td><span style="color:red">DUPONTE</span></td>
-<td><span style="color:green">DUPONT</span></td>
-<td>❌</td>
-</tr>
-<tr>
-<td>Adresse du dernier domicile</td>
-<td><span style="color:red">124 Rue Imaginaire, 75000 Paris, France</span></td>
-<td><span style="color:green">123 Rue Imaginaire, 75000 Paris, France</span></td>
-<td>❌</td>
-</tr>
-<tr>
-<td>Date de naissance</td>
-<td><span style="color:red">1er janvier 1931</span></td>
-<td><span style="color:green">1930-01-01</span></td>
-<td>⚠️</td>
-</tr>
-<tr>
-<td>Lieu de naissance</td>
-<td>Lyon, 69000, France</td>
-<td>Lyon, 69000, France</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Date du décès</td>
-<td><span style="color:red">1er janvier 2023</span></td>
-<td><span style="color:green">2023-01-01</span></td>
-<td>⚠️</td>
-</tr>
-<tr>
-<td>Lieu du décès</td>
-<td>Paris, 75000, France</td>
-<td>Paris, 75000, France</td>
-<td>✅</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3>📄 Page 2</h3>
-<h4>Héritiers</h4>
-<table>
-<thead>
-<tr>
-<th>Donnée vérifiée</th>
-<th>Ce que nous avons trouvé</th>
-<th>Ce qui était attendu</th>
-<th>Statut</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Titre</td>
-<td>Madame</td>
-<td>Madame</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Prénom</td>
-<td>Sophie</td>
-<td>Sophie</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Deuxième prénom</td>
-<td>Marie</td>
-<td>Marie</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Nom de naissance</td>
-<td>MARTIN</td>
-<td>MARTIN</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Adresse</td>
-<td>456 Avenue Fictive, 33000 Bordeaux, France</td>
-<td>456 Avenue Fictive, 33000 Bordeaux, France</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Date de naissance</td>
-<td>1950-05-05</td>
-<td>1950-05-05</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Lieu de naissance</td>
-<td>Lyon, 69000, France</td>
-<td>Lyon, 69000, France</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Nationalité</td>
-<td>Française</td>
-<td>Française</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>État civil</td>
-<td>Veuve</td>
-<td>Veuve</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Lien de parenté</td>
-<td>Nièce</td>
-<td>Nièce</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Part successorale</td>
-<td>1/4</td>
-<td>1/4</td>
-<td>✅</td>
-</tr>
-</tbody>
-</table>
-<h4>Héritiers</h4>
-<table>
-<thead>
-<tr>
-<th>Donnée vérifiée</th>
-<th>Ce que nous avons trouvé</th>
-<th>Ce qui était attendu</th>
-<th>Statut</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Titre</td>
-<td>Madame</td>
-<td>Madame</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Prénom</td>
-<td>Claire</td>
-<td>Claire</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Deuxième prénom</td>
-<td>Anne</td>
-<td>Anne</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Nom de naissance</td>
-<td><span style="color:red">DURANDE</span></td>
-<td><span style="color:green">DURAND</span></td>
-<td>❌</td>
-</tr>
-<tr>
-<td>Profession</td>
-<td><span style="color:red">Retraitée</span></td>
-<td><span style="color:green">Retired</span></td>
-<td>❌</td>
-</tr>
-<tr>
-<td>Adresse</td>
-<td>789 Boulevard Exemple, 13000 Marseille, France</td>
-<td>789 Boulevard Exemple, 13000 Marseille, France</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Date de naissance</td>
-<td><span style="color:red">15 septembre 1942</span></td>
-<td><span style="color:green">1942-09-15</span></td>
-<td>⚠️</td>
-</tr>
-<tr>
-<td>Lieu de naissance</td>
-<td>Paris, 75013, France</td>
-<td>Paris, 75013, France</td>
-<td>✅</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3>📄 Page 3</h3>
-<h4>Héritiers</h4>
-<table>
-<thead>
-<tr>
-<th>Donnée vérifiée</th>
-<th>Ce que nous avons trouvé</th>
-<th>Ce qui était attendu</th>
-<th>Statut</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Titre</td>
-<td>Monsieur</td>
-<td>Monsieur</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Prénom(s)</td>
-<td>Jean Paul</td>
-<td>Jean Paul</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Nom de naissance</td>
-<td>DURAND</td>
-<td>DURAND</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Adresse</td>
-<td>2 Allée des Chênes, 49000 Angers, France</td>
-<td>2 Allée des Chênes, 49000 Angers, France</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Date de naissance</td>
-<td>1967-04-04</td>
-<td>1967-04-04</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Lieu de naissance</td>
-<td>Saint-Mandé, 94160, France</td>
-<td>Saint-Mandé, 94160, France</td>
-<td>✅</td>
-</tr>
-</tbody>
-</table>
-<h4>Héritiers</h4>
-<table>
-<thead>
-<tr>
-<th>Donnée vérifiée</th>
-<th>Ce que nous avons trouvé</th>
-<th>Ce qui était attendu</th>
-<th>Statut</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Titre</td>
-<td>Madame</td>
-<td>Madame</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Prénom</td>
-<td>Corinne</td>
-<td>Corinne</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Deuxième prénom</td>
-<td>Chantal</td>
-<td>Chantal</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Nom de naissance</td>
-<td>MARTIN</td>
-<td>MARTIN</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Adresse</td>
-<td>4 Place Imaginaire, 93370 Montfermeil, France</td>
-<td>4 Place Imaginaire, 93370 Montfermeil, France</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Date de naissance</td>
-<td>1969-02-24</td>
-<td>1969-02-24</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Lieu de naissance</td>
-<td>Paris, 75017, France</td>
-<td>Paris, 75017, France</td>
-<td>✅</td>
-</tr>
-</tbody>
-</table>
-<h4>Héritiers</h4>
-<table>
-<thead>
-<tr>
-<th>Donnée vérifiée</th>
-<th>Ce que nous avons trouvé</th>
-<th>Ce qui était attendu</th>
-<th>Statut</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Titre</td>
-<td>Monsieur</td>
-<td>Monsieur</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Prénom(s)</td>
-<td><span style="color:red">Patricee René</span></td>
-<td><span style="color:green">Patrice René</span></td>
-<td>❌</td>
-</tr>
-<tr>
-<td>Nom de naissance</td>
-<td>ROUX</td>
-<td>ROUX</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>Date de naissance</td>
-<td><span style="color:red">23 juin 1970</span></td>
-<td><span style="color:green">1970-06-23</span></td>
-<td>⚠️</td>
-</tr>
-<tr>
-<td>Lieu de naissance</td>
-<td><span style="color:red">Saint-Mmande, 94160, France</span></td>
-<td><span style="color:green">Saint-Mandé, 94160, France</span></td>
-<td>❌</td>
-</tr>
-<tr>
-<td>Adresse</td>
-<td>4 Chemin Imaginaire, 33380 Mios, France</td>
-<td>4 Chemin Imaginaire, 33380 Mios, France</td>
-<td>✅</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2>✅ Résumé du traitement</h2>
-<table>
-<thead>
-<tr>
-<th>Élément</th>
-<th>Détail</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Nom du fichier analysé</strong></td>
-<td>data/sample.pdf</td>
-</tr>
-<tr>
-<td><strong>Affaire n°</strong></td>
-<td>123456789</td>
-</tr>
-<tr>
-<td><strong>Date de génération du rapport</strong></td>
-<td>04:55PM on April 21, 2025</td>
-</tr>
-<tr>
-<td><strong>Type de document détecté</strong></td>
-<td>Notoriété</td>
-</tr>
-<tr>
-<td><strong>Total de pages dans le document</strong></td>
-<td>6</td>
-</tr>
-<tr>
-<td><strong>Pages contenant des erreurs</strong></td>
-<td>3</td>
-</tr>
-<tr>
-<td><strong>Total d'erreurs détectées</strong></td>
-<td>10</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p>📤 <em>Ce rapport a été généré automatiquement à partir de l'analyse du document transmis par</em> <strong><em>verifacte@coutot-roehrig.com</em></strong></p>
-<p>🆔 <em>Ildentifiant du rapport</em>: <strong><em>41e135f7-ecbf-4679-bc41-a7f8f42e0120</em></strong></p>
+    <hr />
+    <h2>⚠️ Informations générales (non localisées)</h2>
+    <ul>
+      <li><span style="color:red"><strong>5</strong> héritiers détectés</span> <em>contre</em> <span
+          style="color:green"><strong>6</strong> héritiers attendus</span>. <em>Personnes non-detectées dans le document
+          en comparaison avec la base de référence</em> :<ul>
+          <li>Madame <strong>Valérie Marie</strong></li>
+        </ul>
+      </li>
+    </ul>
+    <hr />
+    <h2>📄 Détail des éléments non conformes</h2>
+    <h3>📄 Page 1</h3>
+    <h4>Défunt (de cujus)</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Titre</td>
+          <td>Madame</td>
+          <td>Madame</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Prénom</td>
+          <td>Alice</td>
+          <td>Alice</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nom de naissance</td>
+          <td><span style="color:red">DUPONTE</span></td>
+          <td><span style="color:green">DUPONT</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Adresse</td>
+          <td><span style="color:red">124 Rue Imaginaire</span></td>
+          <td><span style="color:green">123 Rue Imaginaire</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">1er janvier 1931</span></td>
+          <td><span style="color:green">1930-01-01</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance</td>
+          <td>Lyon, 69000, France</td>
+          <td>Lyon, 69000, France</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de décès</td>
+          <td><span style="color:red">1er janvier 2023</span></td>
+          <td><span style="color:green">2023-01-01</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Lieu de décès</td>
+          <td>Paris, 75000, France</td>
+          <td>Paris, 75000, France</td>
+          <td>✅</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h3>📄 Page 2</h3>
+    <h4>Héritiers</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Titre</td>
+          <td>Madame</td>
+          <td>Madame</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Prénom</td>
+          <td>Sophie</td>
+          <td>Sophie</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Deuxième prénom</td>
+          <td>Marie</td>
+          <td>Marie</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Troisième prénom</td>
+          <td></td>
+          <td></td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nom de naissance</td>
+          <td>MARTIN</td>
+          <td>MARTIN</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Adresse - Rue</td>
+          <td>456 Avenue Fictive</td>
+          <td>456 Avenue Fictive</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Adresse - Code postal</td>
+          <td>33000</td>
+          <td>33000</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Adresse - Ville</td>
+          <td>Bordeaux</td>
+          <td>Bordeaux</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Adresse - Pays</td>
+          <td>France</td>
+          <td>France</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">5 mai 1950</span></td>
+          <td><span style="color:green">1950-05-05</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance - Ville</td>
+          <td>Lyon</td>
+          <td>Lyon</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance - Code postal</td>
+          <td>69000</td>
+          <td>69000</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance - Pays</td>
+          <td>France</td>
+          <td>France</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>État civil</td>
+          <td>Veuve</td>
+          <td>Veuve</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nationalité</td>
+          <td>Française</td>
+          <td>Française</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Lien de parenté</td>
+          <td>Nièce</td>
+          <td>Nièce</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Part successorale</td>
+          <td>1/4</td>
+          <td>1/4</td>
+          <td>✅</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table>
+      <thead>
+        <tr>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Titre</td>
+          <td><span style="color:red">M</span></td>
+          <td><span style="color:green">Madame</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Prénom</td>
+          <td>Claire</td>
+          <td>Claire</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Deuxième prénom</td>
+          <td>Anne</td>
+          <td>Anne</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Troisième prénom</td>
+          <td></td>
+          <td></td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nom de naissance</td>
+          <td><span style="color:red">DURANDE</span></td>
+          <td><span style="color:green">DURAND</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Profession</td>
+          <td><span style="color:red">Retraitée</span></td>
+          <td><span style="color:green">Retired</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Adresse</td>
+          <td>789 Boulevard Exemple, 13000 Marseille, France</td>
+          <td>789 Boulevard Exemple, 13000 Marseille, France</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">15 septembre 1942</span></td>
+          <td><span style="color:green">1942-09-15</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance</td>
+          <td>Paris, 75013, France</td>
+          <td>Paris, 75013, France</td>
+          <td>✅</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h3>📄 Page 3</h3>
+    <h4>Héritiers</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Titre</td>
+          <td>Monsieur</td>
+          <td>Monsieur</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Prénom</td>
+          <td>Jean</td>
+          <td>Jean</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Deuxième prénom</td>
+          <td>Paul</td>
+          <td>Paul</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Troisième prénom</td>
+          <td></td>
+          <td></td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nom de naissance</td>
+          <td><span style="color:red"></span></td>
+          <td><span style="color:green">DURAND</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Adresse</td>
+          <td>2 Allée des Chênes, 49000 Angers, France</td>
+          <td>2 Allée des Chênes, 49000 Angers, France</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">4 avril 1967</span></td>
+          <td><span style="color:green">1967-04-04</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance</td>
+          <td>Saint-Mandé, 94160, France</td>
+          <td>Saint-Mandé, 94160, France</td>
+          <td>✅</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table>
+      <thead>
+        <tr>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Titre</td>
+          <td>Madame</td>
+          <td>Madame</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Prénom</td>
+          <td><span style="color:red"></span></td>
+          <td><span style="color:green">Corinne</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Deuxième prénom</td>
+          <td><span style="color:red"></span></td>
+          <td><span style="color:green">Chantal</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Nom de naissance</td>
+          <td>MARTIN</td>
+          <td>MARTIN</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Adresse</td>
+          <td>4 Place Imaginaire, 93370 Montfermeil, France</td>
+          <td>4 Place Imaginaire, 93370 Montfermeil, France</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">24 février 1969</span></td>
+          <td><span style="color:green">1969-02-24</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance</td>
+          <td>Paris, 75017, France</td>
+          <td>Paris, 75017, France</td>
+          <td>✅</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table>
+      <thead>
+        <tr>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Titre</td>
+          <td>Monsieur</td>
+          <td>Monsieur</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Prénom</td>
+          <td><span style="color:red">Patricee</span></td>
+          <td><span style="color:green">Patrice</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Deuxième prénom</td>
+          <td>René</td>
+          <td>René</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nom de naissance</td>
+          <td>ROUX</td>
+          <td>ROUX</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Adresse - Rue</td>
+          <td>4 Chemin Imaginaire</td>
+          <td>4 Chemin Imaginaire</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Adresse - Code postal</td>
+          <td>33380</td>
+          <td>33380</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Adresse - Ville</td>
+          <td>Mios</td>
+          <td>Mios</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Adresse - Pays</td>
+          <td>France</td>
+          <td>France</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">23 juin 1970</span></td>
+          <td><span style="color:green">1970-06-23</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance - Ville</td>
+          <td><span style="color:red">Saint-Mmande</span></td>
+          <td><span style="color:green">Saint-Mandé</span></td>
+          <td>❌</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance - Code postal</td>
+          <td>94160</td>
+          <td>94160</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Lieu de naissance - Pays</td>
+          <td>France</td>
+          <td>France</td>
+          <td>✅</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h2>✅ Résumé du traitement</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Élément</th>
+          <th>Détail</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Nom du fichier analysé</strong></td>
+          <td>data/sample.pdf</td>
+        </tr>
+        <tr>
+          <td><strong>Affaire n°</strong></td>
+          <td>123456789</td>
+        </tr>
+        <tr>
+          <td><strong>Date de génération du rapport</strong></td>
+          <td>05:26PM on April 21, 2025</td>
+        </tr>
+        <tr>
+          <td><strong>Type de document détecté</strong></td>
+          <td>Notoriété</td>
+        </tr>
+        <tr>
+          <td><strong>Total de pages dans le document</strong></td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td><strong>Pages contenant des erreurs</strong></td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td><strong>Total d'erreurs détectées</strong></td>
+          <td>17</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <p>📤 <em>Ce rapport a été généré automatiquement à partir de l'analyse du document transmis par</em>
+      <strong><em>verifacte@coutot-roehrig.com</em></strong>
+    </p>
+    <p>🆔 <em>Ildentifiant du rapport</em>: <strong><em>d7939f71-4e4d-4a52-bccf-58de30201d05</em></strong></p>
   </main>
 </body>
 
