@@ -175,84 +175,14 @@
 
 <body>
   <main>
-    <h1>Rapport d'analyse automatique du document "data/sample.pdf</h1>
+    <h1>Rapport d'analyse automatique du document "./data/doc_1.pdf</h1>
     <hr />
-    <h2>⚠️ Informations générales (non localisées)</h2>
-    <ul>
-      <li><span style="color:red"><strong>5</strong> héritiers détectés</span> <em>contre</em> <span
-          style="color:green"><strong>6</strong> héritiers attendus</span>. <em>Personnes non-detectées dans le document
-          en comparaison avec la base de référence</em> :<ul>
-          <li>Madame <strong>Valérie Marie</strong></li>
-        </ul>
-      </li>
-    </ul>
+    <h2>✅ Informations générales (non localisées)</h2>
+    <p>Toutes les informations ont été trouvées dans le document.</p>
     <hr />
     <h2>📄 Détail des éléments non conformes</h2>
-    <h3>📄 Page 1</h3>
-    <h4>Défunt (de cujus)</h4>
-    <table>
-      <thead>
-        <tr>
-          <th>Donnée vérifiée</th>
-          <th>Ce que nous avons trouvé</th>
-          <th>Ce qui était attendu</th>
-          <th>Statut</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Titre</td>
-          <td>Madame</td>
-          <td>Madame</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Prénom</td>
-          <td>Alice</td>
-          <td>Alice</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Nom de naissance</td>
-          <td><span style="color:red">DUPONTE</span></td>
-          <td><span style="color:green">DUPONT</span></td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Adresse</td>
-          <td><span style="color:red">124 Rue Imaginaire</span></td>
-          <td><span style="color:green">123 Rue Imaginaire</span></td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Date de naissance</td>
-          <td><span style="color:red">1er janvier 1931</span></td>
-          <td><span style="color:green">1930-01-01</span></td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Lieu de naissance</td>
-          <td>Lyon, 69000, France</td>
-          <td>Lyon, 69000, France</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Date de décès</td>
-          <td><span style="color:red">1er janvier 2023</span></td>
-          <td><span style="color:green">2023-01-01</span></td>
-          <td>⚠️</td>
-        </tr>
-        <tr>
-          <td>Lieu de décès</td>
-          <td>Paris, 75000, France</td>
-          <td>Paris, 75000, France</td>
-          <td>✅</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
     <h3>📄 Page 2</h3>
-    <h4>Héritiers</h4>
+    <h4>Défunt - Yann MARCHAND</h4>
     <table>
       <thead>
         <tr>
@@ -264,179 +194,33 @@
       </thead>
       <tbody>
         <tr>
-          <td>Titre</td>
-          <td>Madame</td>
-          <td>Madame</td>
-          <td>✅</td>
-        </tr>
-        <tr>
           <td>Prénom</td>
-          <td>Sophie</td>
-          <td>Sophie</td>
+          <td>Yann</td>
+          <td>Yann</td>
           <td>✅</td>
         </tr>
         <tr>
-          <td>Deuxième prénom</td>
-          <td>Marie</td>
-          <td>Marie</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Troisième prénom</td>
-          <td></td>
-          <td></td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Nom de naissance</td>
-          <td>MARTIN</td>
-          <td>MARTIN</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Adresse - Rue</td>
-          <td>456 Avenue Fictive</td>
-          <td>456 Avenue Fictive</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Adresse - Code postal</td>
-          <td>33000</td>
-          <td>33000</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Adresse - Ville</td>
-          <td>Bordeaux</td>
-          <td>Bordeaux</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Adresse - Pays</td>
-          <td>France</td>
-          <td>France</td>
+          <td>Nom</td>
+          <td>MARCHAND</td>
+          <td>MARCHAND</td>
           <td>✅</td>
         </tr>
         <tr>
           <td>Date de naissance</td>
-          <td><span style="color:red">5 mai 1950</span></td>
-          <td><span style="color:green">1950-05-05</span></td>
+          <td><span style="color:red">31 mars 1955</span></td>
+          <td><span style="color:green">1955-03-31</span></td>
           <td>⚠️</td>
-        </tr>
-        <tr>
-          <td>Lieu de naissance - Ville</td>
-          <td>Lyon</td>
-          <td>Lyon</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Lieu de naissance - Code postal</td>
-          <td>69000</td>
-          <td>69000</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Lieu de naissance - Pays</td>
-          <td>France</td>
-          <td>France</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>État civil</td>
-          <td>Veuve</td>
-          <td>Veuve</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Nationalité</td>
-          <td>Française</td>
-          <td>Française</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Lien de parenté</td>
-          <td>Nièce</td>
-          <td>Nièce</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Part successorale</td>
-          <td>1/4</td>
-          <td>1/4</td>
-          <td>✅</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <table>
-      <thead>
-        <tr>
-          <th>Donnée vérifiée</th>
-          <th>Ce que nous avons trouvé</th>
-          <th>Ce qui était attendu</th>
-          <th>Statut</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Titre</td>
-          <td><span style="color:red">M</span></td>
-          <td><span style="color:green">Madame</span></td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Prénom</td>
-          <td>Claire</td>
-          <td>Claire</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Deuxième prénom</td>
-          <td>Anne</td>
-          <td>Anne</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Troisième prénom</td>
-          <td></td>
-          <td></td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Nom de naissance</td>
-          <td><span style="color:red">DURANDE</span></td>
-          <td><span style="color:green">DURAND</span></td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Profession</td>
-          <td><span style="color:red">Retraitée</span></td>
-          <td><span style="color:green">Retired</span></td>
-          <td>❌</td>
         </tr>
         <tr>
           <td>Adresse</td>
-          <td>789 Boulevard Exemple, 13000 Marseille, France</td>
-          <td>789 Boulevard Exemple, 13000 Marseille, France</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Date de naissance</td>
-          <td><span style="color:red">15 septembre 1942</span></td>
-          <td><span style="color:green">1942-09-15</span></td>
+          <td><span style="color:red">8 rue du Bonheur, PARIS 15ÈME ARRONDISSEMENT (75015)</span></td>
+          <td><span style="color:green">8 rue du Bonheur, 75015 Paris</span></td>
           <td>⚠️</td>
-        </tr>
-        <tr>
-          <td>Lieu de naissance</td>
-          <td>Paris, 75013, France</td>
-          <td>Paris, 75013, France</td>
-          <td>✅</td>
         </tr>
       </tbody>
     </table>
-    <hr />
     <h3>📄 Page 3</h3>
-    <h4>Héritiers</h4>
+    <h4>Héritier - Jacqueline MARCHAND</h4>
     <table>
       <thead>
         <tr>
@@ -448,56 +232,35 @@
       </thead>
       <tbody>
         <tr>
-          <td>Titre</td>
-          <td>Monsieur</td>
-          <td>Monsieur</td>
-          <td>✅</td>
-        </tr>
-        <tr>
           <td>Prénom</td>
-          <td>Jean</td>
-          <td>Jean</td>
+          <td>Jacqueline</td>
+          <td>Jacqueline</td>
           <td>✅</td>
         </tr>
         <tr>
-          <td>Deuxième prénom</td>
-          <td>Paul</td>
-          <td>Paul</td>
+          <td>Nom</td>
+          <td>MARCHAND</td>
+          <td>MARCHAND</td>
           <td>✅</td>
         </tr>
         <tr>
-          <td>Troisième prénom</td>
-          <td></td>
-          <td></td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Nom de naissance</td>
-          <td><span style="color:red"></span></td>
-          <td><span style="color:green">DURAND</span></td>
-          <td>❌</td>
+          <td>Date de naissance</td>
+          <td><span style="color:red">18 décembre 1954</span></td>
+          <td><span style="color:green">1954-12-18</span></td>
+          <td>⚠️</td>
         </tr>
         <tr>
           <td>Adresse</td>
-          <td>2 Allée des Chênes, 49000 Angers, France</td>
-          <td>2 Allée des Chênes, 49000 Angers, France</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Date de naissance</td>
-          <td><span style="color:red">4 avril 1967</span></td>
-          <td><span style="color:green">1967-04-04</span></td>
+          <td><span style="color:red">EHPAD Arkea Les Barres de Seine, 77 boulevard Bardin, MARNE-LA-VALLÉE
+              (77000)</span></td>
+          <td><span style="color:green">EHPAD Arkéa Les Barres de Seine, 77 boulevard Bardin, 77000
+              Marne-la-Vallée</span></td>
           <td>⚠️</td>
-        </tr>
-        <tr>
-          <td>Lieu de naissance</td>
-          <td>Saint-Mandé, 94160, France</td>
-          <td>Saint-Mandé, 94160, France</td>
-          <td>✅</td>
         </tr>
       </tbody>
     </table>
-    <hr />
+    <h3>📄 Page 3</h3>
+    <h4>Héritier - Françoise MARCHAND</h4>
     <table>
       <thead>
         <tr>
@@ -509,50 +272,35 @@
       </thead>
       <tbody>
         <tr>
-          <td>Titre</td>
-          <td>Madame</td>
-          <td>Madame</td>
-          <td>✅</td>
-        </tr>
-        <tr>
           <td>Prénom</td>
-          <td><span style="color:red"></span></td>
-          <td><span style="color:green">Corinne</span></td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Deuxième prénom</td>
-          <td><span style="color:red"></span></td>
-          <td><span style="color:green">Chantal</span></td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Nom de naissance</td>
-          <td>MARTIN</td>
-          <td>MARTIN</td>
+          <td>Françoise</td>
+          <td>Françoise</td>
           <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nom</td>
+          <td>MARCHAND</td>
+          <td>MARCHAND</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">5 mars 1942</span></td>
+          <td><span style="color:green">1942-03-05</span></td>
+          <td>⚠️</td>
         </tr>
         <tr>
           <td>Adresse</td>
-          <td>4 Place Imaginaire, 93370 Montfermeil, France</td>
-          <td>4 Place Imaginaire, 93370 Montfermeil, France</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Date de naissance</td>
-          <td><span style="color:red">24 février 1969</span></td>
-          <td><span style="color:green">1969-02-24</span></td>
+          <td><span style="color:red">EHPAD Les Jardins de l'Étoile, 12 rue Paul Vaillant-Couturier, LEVALLOIS-PERRET
+              (92300)</span></td>
+          <td><span style="color:green">EHPAD Les Jardins de l’Étoile, 12 rue Paul Vaillant-Couturier, 92300
+              Levallois-Perret</span></td>
           <td>⚠️</td>
-        </tr>
-        <tr>
-          <td>Lieu de naissance</td>
-          <td>Paris, 75017, France</td>
-          <td>Paris, 75017, France</td>
-          <td>✅</td>
         </tr>
       </tbody>
     </table>
-    <hr />
+    <h3>📄 Page 3</h3>
+    <h4>Héritier - Odette BRIAND</h4>
     <table>
       <thead>
         <tr>
@@ -564,76 +312,180 @@
       </thead>
       <tbody>
         <tr>
-          <td>Titre</td>
-          <td>Monsieur</td>
-          <td>Monsieur</td>
-          <td>✅</td>
-        </tr>
-        <tr>
           <td>Prénom</td>
-          <td><span style="color:red">Patricee</span></td>
-          <td><span style="color:green">Patrice</span></td>
-          <td>❌</td>
-        </tr>
-        <tr>
-          <td>Deuxième prénom</td>
-          <td>René</td>
-          <td>René</td>
+          <td>Odette</td>
+          <td>Odette</td>
           <td>✅</td>
         </tr>
         <tr>
-          <td>Nom de naissance</td>
-          <td>ROUX</td>
-          <td>ROUX</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Adresse - Rue</td>
-          <td>4 Chemin Imaginaire</td>
-          <td>4 Chemin Imaginaire</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Adresse - Code postal</td>
-          <td>33380</td>
-          <td>33380</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Adresse - Ville</td>
-          <td>Mios</td>
-          <td>Mios</td>
-          <td>✅</td>
-        </tr>
-        <tr>
-          <td>Adresse - Pays</td>
-          <td>France</td>
-          <td>France</td>
+          <td>Nom</td>
+          <td>BRIAND</td>
+          <td>BRIAND</td>
           <td>✅</td>
         </tr>
         <tr>
           <td>Date de naissance</td>
-          <td><span style="color:red">23 juin 1970</span></td>
-          <td><span style="color:green">1970-06-23</span></td>
+          <td><span style="color:red">12 février 1933</span></td>
+          <td><span style="color:green">1933-02-12</span></td>
           <td>⚠️</td>
         </tr>
         <tr>
-          <td>Lieu de naissance - Ville</td>
-          <td><span style="color:red">Saint-Mmande</span></td>
-          <td><span style="color:green">Saint-Mandé</span></td>
-          <td>❌</td>
+          <td>Adresse</td>
+          <td><span style="color:red">Maison de Retraite Les Lauriers, CHASTEL-NOUVEL (48000)</span></td>
+          <td><span style="color:green">Maison de Retraite Les Lauriers, Chastel-Nouvel, 48000</span></td>
+          <td>⚠️</td>
         </tr>
+      </tbody>
+    </table>
+    <h3>📄 Page 4</h3>
+    <h4>Héritier - Simone BRIAND</h4>
+    <table>
+      <thead>
         <tr>
-          <td>Lieu de naissance - Code postal</td>
-          <td>94160</td>
-          <td>94160</td>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Prénom</td>
+          <td>Simone</td>
+          <td>Simone</td>
           <td>✅</td>
         </tr>
         <tr>
-          <td>Lieu de naissance - Pays</td>
-          <td>France</td>
-          <td>France</td>
+          <td>Nom</td>
+          <td>BRIAND</td>
+          <td>BRIAND</td>
           <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">3 octobre 1935</span></td>
+          <td><span style="color:green">1935-10-03</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Adresse</td>
+          <td><span style="color:red">8 avenue de la République, Bâtiment A, BAGNOLET (93170)</span></td>
+          <td><span style="color:green">8 avenue de la République, Bâtiment A, 93170 Bagnolet</span></td>
+          <td>⚠️</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>📄 Page 4</h3>
+    <h4>Héritier - Andrée BRIAND</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Prénom</td>
+          <td>Andrée</td>
+          <td>Andrée</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nom</td>
+          <td>BRIAND</td>
+          <td>BRIAND</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">27 juillet 1944</span></td>
+          <td><span style="color:green">1944-07-27</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Adresse</td>
+          <td><span style="color:red">15 rue des Pervenches, ARGENTEUIL (95100)</span></td>
+          <td><span style="color:green">15 rue des Pervenches, 95100 Argenteuil</span></td>
+          <td>⚠️</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>📄 Page 4</h3>
+    <h4>Héritier - Danielle MARCHAND</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Prénom</td>
+          <td>Danielle</td>
+          <td>Danielle</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nom</td>
+          <td>MARCHAND</td>
+          <td>MARCHAND</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">9 octobre 1939</span></td>
+          <td><span style="color:green">1939-10-09</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Adresse</td>
+          <td><span style="color:red">34 avenue de la Libération, RAMBOUILLET (78120)</span></td>
+          <td><span style="color:green">34 avenue de la Libération, 78120 Rambouillet</span></td>
+          <td>⚠️</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>📄 Page 5</h3>
+    <h4>Héritier - Françoise LENOIR</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Donnée vérifiée</th>
+          <th>Ce que nous avons trouvé</th>
+          <th>Ce qui était attendu</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Prénom</td>
+          <td>Françoise</td>
+          <td>Françoise</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Nom</td>
+          <td>LENOIR</td>
+          <td>LENOIR</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>Date de naissance</td>
+          <td><span style="color:red">19 octobre 1943</span></td>
+          <td><span style="color:green">1943-10-19</span></td>
+          <td>⚠️</td>
+        </tr>
+        <tr>
+          <td>Adresse</td>
+          <td><span style="color:red">12 rue Jules Vallès, BRIVE-LA-GAILLARDE (19100)</span></td>
+          <td><span style="color:green">12 rue Jules Vallès, 19100 Brive-la-Gaillarde</span></td>
+          <td>⚠️</td>
         </tr>
       </tbody>
     </table>
@@ -649,7 +501,7 @@
       <tbody>
         <tr>
           <td><strong>Nom du fichier analysé</strong></td>
-          <td>data/sample.pdf</td>
+          <td>./data/doc_1.pdf</td>
         </tr>
         <tr>
           <td><strong>Affaire n°</strong></td>
@@ -657,7 +509,7 @@
         </tr>
         <tr>
           <td><strong>Date de génération du rapport</strong></td>
-          <td>05:26PM on April 21, 2025</td>
+          <td>07:06PM on April 22, 2025</td>
         </tr>
         <tr>
           <td><strong>Type de document détecté</strong></td>
@@ -665,23 +517,22 @@
         </tr>
         <tr>
           <td><strong>Total de pages dans le document</strong></td>
-          <td>6</td>
+          <td>14</td>
         </tr>
         <tr>
           <td><strong>Pages contenant des erreurs</strong></td>
-          <td>3</td>
+          <td>4</td>
         </tr>
         <tr>
           <td><strong>Total d'erreurs détectées</strong></td>
-          <td>17</td>
+          <td>16</td>
         </tr>
       </tbody>
     </table>
     <hr />
     <p>📤 <em>Ce rapport a été généré automatiquement à partir de l'analyse du document transmis par</em>
-      <strong><em>verifacte@coutot-roehrig.com</em></strong>
-    </p>
-    <p>🆔 <em>Ildentifiant du rapport</em>: <strong><em>d7939f71-4e4d-4a52-bccf-58de30201d05</em></strong></p>
+      <strong><em>verifacte@coutot-roehrig.com</em></strong></p>
+    <p>🆔 <em>Ildentifiant du rapport</em>: <strong><em>eb6132d3-b464-4411-ba4b-eb60d1844461</em></strong></p>
   </main>
 </body>
 
